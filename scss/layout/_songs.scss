@@ -123,9 +123,10 @@
 
     &__picture {
         @include size(70px);
+        background-size: contain;
 
         &--1 {
-            background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg");
         }
 
         &--2 {
@@ -145,48 +146,39 @@
         }
 
         &--6 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t504029260-b1499112594_s400.jpg");
         }
 
         &--7 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t473848807-b1478129158_s400.jpg");
         }
 
         &--8 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t504306206-b1501705494_s400.jpg");
         }
 
         &--9 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t360553122-b1374219174_s400.jpg");
         }
 
         &--10 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t511300055-b1504433300_s400.jpg");
         }
 
         &--11 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t509415112-b1506263154_s400.jpg");
         }
 
         &--12 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t382821192-b1505607242_s400.jpg");
         }
 
         &--13 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t506351917-b1481511875_s400.jpg");
         }
 
         &--14 {
-            background-color: black;
-            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+            background-image: url("https://images.shazam.com/coverart/t510905269-b1503336119_s400.jpg");
         }
     }
 }
