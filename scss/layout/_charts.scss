@@ -1,0 +1,36 @@
+.charts {
+    height: 100vh;
+    &__type{
+        // @include size(100%, 17%);
+        padding: 12px;
+        margin-bottom: 14px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        content: '';
+
+        &--us{
+            background-image: url(../images/us.png);
+        }
+
+        &--germany {
+            background-image: url(../images/germ.png);
+        }
+
+        &--global {
+            background-image: url(../images/glob.png);
+        }
+    }
+}
+
+.charts__name {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.charts__text {
+    font-weight: 500;
+    color: white;
+}

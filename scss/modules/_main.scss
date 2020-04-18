@@ -1,0 +1,32 @@
+.title {
+    padding: 20px 0;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+
+
+    &__title {
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    &__logo {
+        @include size(60px);
+        background-color: $blue;
+        border-radius: 100px;
+        position: relative;
+
+        &-svg {
+            width: 20px;
+            fill: white;
+            position: absolute;
+            top: 18px;
+            left: 22px;
+        }
+    }
+}

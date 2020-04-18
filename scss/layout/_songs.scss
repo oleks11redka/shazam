@@ -1,0 +1,192 @@
+.songs {
+
+    &__play {
+        @include size(36px);
+        border-radius: 100px;
+        background-color: $blue;
+        position: absolute;
+        left: -40px;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__apple {
+        cursor: pointer;
+        position: absolute;
+        transition: .3s ease-in-out;
+        right: -74px;
+    }
+
+    &__logo-play {
+        position: absolute;
+        width: 10px;
+        fill: white;
+        top: 12px;
+        left: 14px;
+    }
+
+    &__number {
+        width: 30px;
+        margin-right: 10px;
+        font: 16px #242424;
+        font-weight: 700;
+    }
+
+    &__title {
+        font: 16px #242424;
+        font-weight: 700;
+        line-height: 24px;
+        vertical-align: middle;
+        
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    &__author {
+        color: #949494;
+        line-height: 24px;
+        vertical-align: middle;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    &__info {
+        padding-left: 15px;
+    }
+
+
+    &__item {
+        width: 100%;
+        padding: 15px 15px 15px 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #00000010;
+        overflow: hidden;
+        position: relative;
+
+        &:hover {
+            background-color: rgba(238, 238, 238, 0.432);
+
+            .songs__play {
+                left: 6px;
+            }
+
+            .songs__more {
+                right: 30px;
+            } 
+
+            .songs__apple {
+                right: 70px;
+            }
+        }
+
+        .songs__more {
+                position: absolute;
+                right: -20px;
+                transition: .3s ease-in-out;
+                cursor: pointer;
+                @include size(4px, 10px);
+
+            span {
+                @include size(4px);
+                background-color: black;
+                position: absolute;
+                border-radius: 20px;
+                top: 3px;
+            }
+
+            &::before {
+                @include size(4px);
+                border-radius: 20px;
+                background-color: black;
+                content: '';
+                position: absolute;
+                top: 10px;
+            }
+
+            &::after {
+                @include size(4px);
+                border-radius: 20px;
+                background-color: black;
+                content: '';
+                position: absolute;
+                bottom: 10px;
+            }            
+        }
+    }
+
+    &__picture {
+        @include size(70px);
+
+        &--1 {
+            background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--2 {
+            background-image: url("https://images.shazam.com/coverart/t503576063-b1499386265_s400.jpg");
+        }
+
+        &--3 {
+            background-image: url("https://images.shazam.com/coverart/t469862641-b1479678552_s400.jpg");
+        }
+
+        &--4 {
+            background-image: url("https://images.shazam.com/coverart/t52865487-b1274315362_s400.jpg");
+        }
+
+        &--5 {
+            background-image: url("https://images.shazam.com/coverart/t466040067-b1475546088_s400.jpg");
+        }
+
+        &--6 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--7 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--8 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--9 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--10 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--11 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--12 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--13 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+
+        &--14 {
+            background-color: black;
+            // background: url(https://images.shazam.com/coverart/t481823877-b1504714759_s400.jpg) center no-repeat cover;
+        }
+    }
+}
